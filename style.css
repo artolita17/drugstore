@@ -31,7 +31,7 @@ html{
        padding-top: 200px;
        text-align: center;
        display:block;
-       padding-bottom: 400px;
+       padding-bottom: 200px;
        font-size: larger;
        font-weight: bolder;
        font-family: custom;
@@ -50,4 +50,25 @@ html{
    h2{
        color: rgb(9, 39, 9);
        font-family: custom;
+   }
+
+   img{
+    height: 120px;
+    border-radius: 20px;
+
+   }
+   p{
+    justify-content: center;
+    color: rgb(43, 74, 43);
+   }
+   figcaption{
+    font-weight: bold;
+    color: rgb(9, 39, 9);
+   }
+   .house img{
+    height: 400px;
+   }
+   .own img {
+    height: 200px;
+    border-radius: 500px;
    }
